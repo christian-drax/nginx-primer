@@ -16,7 +16,7 @@ services:
     volumes:
      - /Users/CEO/data/postgres:/data/postgres
     env_file:
-    - docker.env 
+    - docker.env
   
   pgadmin:
     links:
